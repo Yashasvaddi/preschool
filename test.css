@@ -1,0 +1,151 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin:0px;
+    padding:0px;
+}
+.main{
+    width:100%;
+    height:100%;
+    position:relative;
+}
+.navigation{
+    width:100%;
+    height:15%;
+    display: flex;
+    background-color:rgb(8, 8, 177);
+    align-items: center;
+    justify-content: center;
+}
+.admibar{
+    position:relative;
+    border:3px solid black;
+    width:15%;
+    height: 5vh;
+    display: flex;;
+    background-color: black;
+    justify-content:center;
+    align-items:center;
+}
+.scrollbar{
+    position:relative;
+    border:3px solid black;
+    width:60%;
+    height:5vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.admibarcontent{
+    color:white;
+}
+.scrollbarcontent{
+    text-decoration: none;
+    font-weight:600;
+    color: black;
+    font-size:30px;
+}
+.titlebar{
+    border:3px solid black;
+    width:100%;
+    height:10vh;
+    display: flex;
+    gap:2%;
+    position: relative;
+}
+.logo1{
+    position: relative;
+    left:2%;
+    display: flex;
+    align-items: center;
+}
+.logo2{
+    position: relative;
+    height:100%;
+    display: none;
+    justify-items: left;
+}
+.logoname{
+    position: relative;
+    display: flex;
+}
+.logotitle1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 2.7rem;
+    color:rgb(5, 5, 77);
+    text-shadow: 2px black;
+}
+.hiddenname{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    left:-141px;
+    height: 100%;
+}
+.logotitle2{
+    display: none;
+    flex-direction: column;
+    position: relative;
+    color: white;
+    font-size: 230%;
+}
+.links a{
+    text-decoration: none;
+    color:black;
+}
+.links a:hover{
+    color:rgb(43, 43, 155);
+}
+.links {
+    position: relative;
+    left:55%;
+    display: flex;
+    gap:35%;
+    justify-content: center;
+    align-items: center;
+    font-size:1.5em;
+    white-space: nowrap;
+}
+.button{
+    position: relative;
+    display: flex;
+    top:3vh;
+    left:110%;
+    justify-content: center;
+    height: 35px;
+    font-size: 25px;
+    width:35%;
+    font-family: 'Times New Roman';
+    border-radius: 5px;
+    background-color:rgb(5, 5, 77);
+    color: white;
+}
+.button:hover{
+    background-color: brown;
+}
+@media only screen and (max-width:600px) {
+    
+        .scrollbar{
+            display:none;
+            height: 10px;
+        }
+        .admibar{
+            display:none;
+        }
+       .titlebar{
+        display: none;
+       }
+       .logotitle2{
+        display: flex;
+       }
+       .logo2{
+        display: flex;
+       }
+}
+
+
