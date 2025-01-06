@@ -116,7 +116,6 @@ html,body{
 .buttoncon:focus{
     background-color: blue;
 }
-
 @media (max-width:426px) {
     .links{
         display: none;
