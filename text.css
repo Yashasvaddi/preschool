@@ -18,7 +18,7 @@ html,body{
 .scrollbarparent{
     width:  80%;
     height: 45%;
-    border: 3px solid black;
+    border: 1px solid black;
     display: flex;
 }
 .scrollbarname{
@@ -56,7 +56,6 @@ html,body{
 }
 .logoandname{
     flex:1.5;
-    border: 3px solid black;
     display: flex;
 }
 .logo{
@@ -78,7 +77,6 @@ html,body{
 }
 .links {
     flex: 6.5;
-    border: 3px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,7 +99,6 @@ html,body{
 }
 .button{
     flex:2;
-    border: 3px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,11 +113,28 @@ html,body{
 .buttoncon:focus{
     background-color: blue;
 }
+.menu{
+    height: 100%;
+    width: 40%;
+    display:none;
+    justify-content: center;
+    align-items: center;
+}
+.menucon{
+    width: 30%;
+    height: 30%;
+}
 @media (max-width:426px) {
     .links{
         display: none;
     }
     .buttoncon{
         display: none;
+    }
+    .menu{
+        display:flex;
+    }
+    .button{
+        justify-content: right;
     }
 } 
