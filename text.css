@@ -96,13 +96,32 @@ html,body{
     color: black;
     font-size: 1.3rem;
 }
-
+.contents a:hover{
+    color: rgb(71, 71, 206);
+}
 .button{
     flex:2;
     border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.buttoncon{
+    width: 60%;
+    height: 40%;
+    font-size: 100%;
+    background-color: rgb(4, 4, 83);
+    color:white;
+}
+.buttoncon:focus{
+    background-color: blue;
+}
+
 @media (max-width:426px) {
     .links{
+        display: none;
+    }
+    .buttoncon{
         display: none;
     }
 } 
