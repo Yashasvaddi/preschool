@@ -247,16 +247,14 @@ html, body {
 .aimcon{
     flex:3;
     width:30%;
-    align-items: center;
-    justify-content: center;
 }
 .aimhead{
     font-size:clamp(15px,4vw,50px);
 }
 .aimbodcon{
     flex:7;
-    width:100%;
     width: 70%;
+    position: absolute;
 }
 .aimbod{
     font-size:clamp(10px,4vw,30px);
