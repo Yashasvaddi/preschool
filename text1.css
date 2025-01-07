@@ -254,7 +254,6 @@ html, body {
 .aimbodcon{
     flex:7;
     width: 70%;
-    position: absolute;
 }
 .aimbod{
     font-size:clamp(10px,4vw,30px);
