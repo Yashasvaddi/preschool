@@ -207,9 +207,9 @@ html, body {
     font-size: clamp(24px,4vw,36px);
 }
 .text{
-    width:85%;
-    margin-left: 10%;
+    margin-left:10%;
     font-size: clamp(8px,4vw,24px);
+    width: 50%;
 }
 .Read{
     width:15%;
@@ -226,7 +226,7 @@ html, body {
 }
 .background {
     width: 100%;
-    height: 37%;
+    height: 30%;
     background-image: linear-gradient(45deg, rgb(212, 213, 255), #1f7a9a, black);
     display: flex;
     justify-content: center;
@@ -235,7 +235,7 @@ html, body {
     text-align: center;
     position: absolute;
     flex-direction: column; 
-    top: 180%;
+    top: 145%;
     border:1px solid black;
 }
 .aimheadcon {
@@ -244,7 +244,9 @@ html, body {
     width: 50%;
     justify-content: center;
 }
-
+.hiddenaimbod{
+    display:none;
+}
 .aimhead {
     font-size: clamp(15px, 4vw, 50px);
 }
@@ -261,15 +263,27 @@ html, body {
     .links {
         display: none;
     }
-
+    .hiddenaimbod{
+        display:flex;
+    }
+    .aimbod{
+        display: none;
+    }
     .buttoncon {
         display: none;
     }
-
+    .text{
+        width:70%;
+    }
+    .read{
+        width:25;
+    }
     .menu {
         display: flex;
     }
-
+    .background{
+        top:168%;
+    }
     .button {
         justify-content: right;
     }
