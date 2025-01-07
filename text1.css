@@ -1,11 +1,14 @@
-html,body{
-    margin:0px;
+html, body {
+    margin: 0;
+    padding: 0;
 }
+
 .main {
     width: 100vw;
     height: 100vh;
 }
-.firstbar{
+
+.firstbar {
     width: 100%;
     height: 10%;
     border: 1px solid black;
@@ -15,66 +18,78 @@ html,body{
     justify-content: center;
     background-color: blue;
 }
-.scrollbarparent{
-    width:  80%;
+
+.scrollbarparent {
+    width: 80%;
     height: 45%;
     border: 1px solid black;
     display: flex;
 }
-.scrollbarname{
-    flex:2.5;
+
+.scrollbarname {
+    flex: 2.5;
     border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: black;
 }
-.scrollernametext{
-    font-size: clamp(10%,15px,30px);
+
+.scrollernametext {
+    font-size: clamp(10%, 15px, 30px);
     color: white;
 }
-.scrollbarroller{
-    flex:7.5;
+
+.scrollbarroller {
+    flex: 7.5;
     border: 1px solid black;
     background-color: white;
     justify-content: center;
     display: flex;
     align-items: center;
 }
-.scrollbarollertext{
-    font-size:190% ;
+
+.scrollbarollertext {
+    font-size: 190%;
 }
+
 .scrollbarinnertext {
     text-decoration: none;
     color: black;
 }
-.navbar{
+
+.navbar {
     border: 1px solid black;
     width: 100%;
     height: 12%;
-    display:flex;
-}
-.logoandname{
-    flex:1.5;
     display: flex;
 }
-.logo{
-    flex:3;
+
+.logoandname {
+    flex: 1.5;
+    display: flex;
+}
+
+.logo {
+    flex: 3;
     display: flex;
     width: 100%;
     height: 100%;
 }
-.name{
-    flex:7;
-    display:flex;
+
+.name {
+    flex: 7;
+    display: flex;
     align-items: center;
     justify-content: left;
 }
-.namecon{
-    max-width:fit-content;
+
+.namecon {
+    max-width: fit-content;
     max-height: fit-content;
     font-size: clamp(12px, 2vw, 36px);
 }
+
 .links {
     flex: 6.5;
     display: flex;
@@ -83,10 +98,10 @@ html,body{
 }
 
 .contents {
-    display: flex; /* Ensures flex behavior */
-    justify-content: center; /* Spaces items evenly */
-    width: 100%; /* Adjust width to align properly */
-    gap: 7vw; /* Optional: Control spacing between items */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 7vw;
 }
 
 .contents a {
@@ -94,95 +109,111 @@ html,body{
     color: black;
     font-size: 1.3rem;
 }
-.contents a:hover{
+
+.contents a:hover {
     color: rgb(71, 71, 206);
 }
-.button{
-    flex:2;
+
+.button {
+    flex: 2;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.buttoncon{
+
+.buttoncon {
     width: 60%;
     height: 40%;
     font-size: 100%;
     background-color: rgb(4, 4, 83);
-    color:white;
+    color: white;
 }
-.buttoncon:focus{
+
+.buttoncon:focus {
     background-color: blue;
 }
-.menu{
+
+.menu {
     height: 40%;
     width: 20%;
-    display:none;
+    display: none;
     justify-content: center;
     align-items: center;
     margin-right: 10%;
 }
-.menucon{
+
+.menucon {
     width: 100%;
     height: 100%;
-    border:1px solid black;
+    border: 1px solid black;
 }
-.secondrow{
-    border:1px solid black;
+
+.secondrow {
+    border: 1px solid black;
     width: 100%;
     height: 80%;
-    display:flex;
+    display: flex;
     position: absolute;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-.secondrowimgcon1{
+
+.secondrowimgcon1 {
     width: 100%;
     height: 100%;
-    filter:blur(2px);
+    filter: blur(2px);
     position: absolute;
 }
-.secondrowimg{
-    border:1px solid black;
+
+.secondrowimg {
+    border: 1px solid black;
     width: 100%;
     height: 100%;
-    display:flex;
+    display: flex;
 }
-.secondrowtext{
+
+.secondrowtext {
     position: absolute;
-    font-size: clamp(16px,4vw,32px);
-    text-shadow: 3px;
+    font-size: clamp(16px, 4vw, 32px);
     color: white;
     font-weight: bold;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);  /* Add text shadow for contrast */
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);  /* Keep only the stronger shadow */
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.5);  /* Semi-transparent background to improve text visibility */
+    background-color: rgba(0, 0, 0, 0.5);  /* Semi-transparent background */
     border-radius: 5px;
     transition-duration: 2s;
     transition-property: transform;
 }
-.secondrow:hover .secondrowtext{
-    transform:scale(1.2);
+
+.secondrow:hover .secondrowtext {
+    transform: scale(1.2);
 }
-.secondrow:hover .secondrowimgcon1{
-    filter:none;
+
+.secondrow:hover .secondrowimgcon1 {
+    filter: none;
 }
-.thirdrow{
+
+.thirdrow {
     width: 100%;
     height: 40%;
-    border: 3px solid black;
+    border: 5px solid black;
 }
-@media (max-width:426px) {
-    .links{
+
+@media (max-width: 426px) {
+    .links {
         display: none;
     }
-    .buttoncon{
+
+    .buttoncon {
         display: none;
     }
-    .menu{
-        display:flex;
+
+    .menu {
+        display: flex;
     }
-    .button{
+
+    .button {
         justify-content: right;
     }
-} 
+}
