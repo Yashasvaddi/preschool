@@ -255,9 +255,7 @@ html, body {
 
 .aimhead {
     font-size: clamp(15px, 4vw, 50px);
-    text-shadow: 2px 2px 0px black,  -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;
 }
-
 .aimbodcon {
     flex:12;
     width:80%;
@@ -265,7 +263,6 @@ html, body {
 
 .aimbod {
     font-size: clamp(10px, 4vw, 30px);
-    text-shadow: 2px 2px 0px black,  -2px -2px 0px black, 2px -2px 0px black, -2px 2px 0px black;     
 }
 
 @media (max-width: 426px) {
