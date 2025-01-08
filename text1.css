@@ -528,6 +528,9 @@ html, body {
     flex:1;
     border:3px solid black;
     color: white;
+    display: flex;
+    padding-left: 5%;
+    gap:10%;
 }
 .map{
     flex:3;
@@ -535,6 +538,12 @@ html, body {
     display: flex;
     justify-content: center;
     background-color: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.maptitle{
+    color: #1f7a9a;
 }
 .contents1 a:hover{
     color:rgb(72, 72, 247)
