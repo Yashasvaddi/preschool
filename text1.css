@@ -265,8 +265,7 @@ html, body {
 }
 .galdiv{
     width: 100%;
-    height: 30%;
-    border:3px solid black;
+
     display: flex;
     flex-direction: column;
 }
@@ -276,7 +275,7 @@ html, body {
     align-items: center;
     font-size: clamp(10px, 4vw, 22px);
     color:white;
-    background-image: linear-gradient(45deg, rgb(212, 213, 255), #1f7a9a, black);
+    background-image: linear-gradient(45deg, rgb(212, 213, 255), #1f7a9a, black);    border:1px solid black;
 }
 .galdivrow1{
     width: 100%;
@@ -302,19 +301,176 @@ html, body {
 .one-one{
     width:100%;
     height: 100%;
+    transition-duration: 1s;
+    transition-property: transform;
 }
 .one-two{
     width:100%;
     height: 100%;
+    transition-duration: 1s;
+    transition-property: transform;
 }
 .one-three{
     width:100%;
     height: 100%;
+    transition-duration: 1s;
+    transition-property: transform;
 }
 .galdivrow2{
     width: 100%;
-    height: 50%;
- 
+    height: 220%;
+    border:1px solid black;
+    display: flex;
+}
+.row2con1{
+    flex:3;
+    border:1px solid black;
+    padding:3.5px;
+    transition-duration: 1s;
+    transition-property: transform;
+}
+.row2con2{
+    flex:4;
+    border:1px solid black;
+    padding:3.5px;
+    transition-duration: 1s;
+    transition-property: transform;
+}
+.row2con3{
+    flex:3;
+    border:1px solid black;
+    padding:3.5px;
+    transition-duration: 1s;
+    transition-property: transform;
+}
+.two-one{
+    width:100%;
+    height: 100%;
+    transition-duration: 1s;
+    transition-property: transform;
+}
+.two-two{
+    width:100%;
+    height: 100%;
+    transition-duration: 1s;
+    transition-property: transform;
+}
+.two-three{
+    width:100%;
+    height: 100%;
+    transition-duration: 1s;
+    transition-property: transform;
+}
+.one-one:hover{
+    transform: scale(1.025);
+}
+.one-two:hover{
+    transform: scale(1.025);
+}.one-three:hover{
+    transform: scale(1.025);
+}.two-one:hover{
+    transform: scale(1.025);
+}.two-two:hover{
+    transform: scale(1.025);
+}.two-three:hover{
+    transform: scale(1.025);
+}
+.footer{
+    width: 100%;
+    height: 60%;
+    border:3px solid black;
+    background-color: black;
+    display: flex;
+    padding-top: 5%;
+}
+.footerlogoandtext{
+    display: flex;
+    flex-direction: column;
+    flex:3;
+    justify-content: center;
+}
+.footerlogo{
+    display: flex;
+    flex:7;
+    justify-content: center;
+    border:3px solid black;
+}
+.footerlogocon{
+    height: 100%;
+}
+.footertextcon{
+    display: flex;
+    text-align: center;
+    color:white;
+}
+.footertext{
+    justify-content: center;
+    flex:3;
+    border:3px solid black;
+}
+.footerlinks{
+    flex:2;
+    border:3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footerlinkstitle{
+    flex:2;
+    width: 100%;
+    justify-items: center;
+    border:1px solid black;
+}
+.linkunderline{
+    color:#1f7a9a;
+}
+.contents1 a{
+    text-decoration: none;
+    color: white;
+}
+.contents1{
+    flex:8;
+    border:1px solid black;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+.connectustitle{
+    flex: 1;
+    border:3px solid black;
+}
+.connectus{
+    display: flex;
+    flex-direction: column;
+    flex:2;
+}
+.connectustitle{
+    display: flex;
+    justify-content: center;
+}
+.connectustitlecon{
+    color:#1f7a9a;
+}
+.connectustext{
+    flex:8;
+    border:3px solid black;
+}
+.connectuslinks{
+    flex:1;
+    border:3px solid black;
+}
+.map{
+    flex:3;
+    border:3px solid black;
+    display: flex;
+    justify-content: center;
+}
+.maploc{
+    display: flex;
+    height: 100%;
+    width: 80%;
 }
 @media (min-width:1152px) {
     .contents a{
@@ -322,6 +478,15 @@ html, body {
     }
 }
 @media (max-width: 426px) {
+    .footer{
+        flex-direction: column;
+    }
+    .galdivrow1{
+        flex-direction:column;
+    }
+    .galdivrow2{
+        flex-direction:column;
+    }
     .thirdrow{
         padding-bottom:05px;
     }
