@@ -383,7 +383,7 @@ html, body {
     display: flex;
     padding-top: 5%;
     background-color: black;
-    padding-bottom: 10%;
+    padding-bottom: 20%;
 }
 .footerlogoandtext{
     display: flex;
@@ -417,6 +417,7 @@ html, body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: black;
 }
 .footerlinkstitle{
     flex:2;
@@ -447,6 +448,7 @@ html, body {
     display: flex;
     flex-direction: column;
     flex:2;
+    background-color: black;
 }
 .connectustitle{
     display: flex;
@@ -532,6 +534,7 @@ html, body {
     border:3px solid black;
     display: flex;
     justify-content: center;
+    background-color: black;
 }
 .contents1 a:hover{
     color:rgb(72, 72, 247)
