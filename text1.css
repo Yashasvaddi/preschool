@@ -275,7 +275,7 @@ html, body {
     align-items: center;
     font-size: clamp(10px, 4vw, 22px);
     color:white;
-    background-image: linear-gradient(45deg, rgb(212, 213, 255), #1f7a9a, black);    border:1px solid black;
+    background-image: linear-gradient(135deg, rgb(212, 213, 255), #1f7a9a, black);    border:1px solid black;
 }
 .galdivrow1{
     width: 100%;
@@ -379,9 +379,11 @@ html, body {
     width: 100%;
     height: 60%;
     border:3px solid black;
-    background-color: black;
+    background-color: white;
     display: flex;
     padding-top: 5%;
+    background-color: black;
+    padding-bottom: 10%;
 }
 .footerlogoandtext{
     display: flex;
@@ -406,11 +408,11 @@ html, body {
 .footertext{
     justify-content: center;
     flex:3;
-    border:3px solid black;
+    border:1px solid black;
 }
 .footerlinks{
     flex:2;
-    border:3px solid black;
+    border:1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -455,17 +457,84 @@ html, body {
 }
 .connectustext{
     flex:8;
+    display: flex;
+    flex-direction: column;
+    border:1px solid black;
+}
+.number{
+    flex:2;
+    display: flex;
+    flex-direction:row;
+    border:1px solid black;
+}
+.numbericon{
+    flex:2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.numbercon{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex:8;
+    border:1px solid black;
+    color: white;
+}
+.address{
+    flex:6;
+    border:3px solid black;
+    display: flex;
+    flex-direction: row;
+}
+.addressicon{
+    flex:2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:3px solid black;
+}
+.addresscon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:8;
+    border:3px solid black;
+    color: white;
+}
+.emailicon{
+    flex:2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:3px solid black;
+}
+.emailcon{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex:8;
+    border:3px solid black;
+    color: white;
+}
+.email{
+    flex:6;
+    display: flex;
     border:3px solid black;
 }
 .connectuslinks{
     flex:1;
     border:3px solid black;
+    color: white;
 }
 .map{
     flex:3;
     border:3px solid black;
     display: flex;
     justify-content: center;
+}
+.contents1 a:hover{
+    color:rgb(72, 72, 247)
 }
 .maploc{
     display: flex;
