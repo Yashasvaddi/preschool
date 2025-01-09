@@ -147,7 +147,9 @@ html, body {
     text-decoration: none;
     color: black;
 }
-
+.scrollbarinnertext:hover{
+    color:red;
+}
 .logoandname {
     flex: 1.5;
     display: flex;
