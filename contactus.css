@@ -1,8 +1,10 @@
 html,body{
     width: 100%;
-    height: 100vw;
+    height: 100%;
     margin:0%;
     padding: 0%;
+    display: flex;
+    flex-direction: column;
 }
 .main {
     width: 100%;
@@ -89,6 +91,16 @@ html,body{
     justify-content: center;
     align-items: center;
 }
+.test1{
+    width: 100%;
+    height: 30%;
+    border: 3px solid black;
+}
+.test2{
+    width: 100%;
+    height: 30%;
+    border: 3px solid black;
+}
 .contents {
     display: flex;
     justify-content: center;
@@ -98,7 +110,7 @@ html,body{
 .contents a {
     text-decoration: none;
     color: black;
-    font-size: 1.1 rem;
+    font-size: clamp(16px,4vw,32px);
 }
 .contents a:hover {
     color: rgb(71, 71, 206);
@@ -179,20 +191,20 @@ html,body{
     height: 50%;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 .cards{
     width: 100%;
+    height: 100%; /* Or use 'auto' if height should depend on content */
     display: flex;
-    border: 1px solid black;
 }
 .addresscard{
-    flex:1;
+    flex: 1;
     border: 1px solid black;
-    margin:2%;
+    margin: 2%;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    display: flex;
 }
 .addresscard:hover,.contactcard:hover,.timingcard:hover{
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
@@ -212,7 +224,7 @@ html,body{
     color: rgb(75, 75, 75);
 }
 .contactcard{
-    flex:1;
+    flex: 1;
     border: 1px solid black;
     margin: 2%;
     border-radius: 10px;
@@ -236,9 +248,9 @@ html,body{
     color: rgb(75, 75, 75);
 }
 .timingcard{
-    flex:1;
+    flex: 1;
     border: 1px solid black;
-    margin:2%;
+    margin: 2%;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
