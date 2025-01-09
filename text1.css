@@ -390,14 +390,16 @@ html, body {
 .footerlogoandtext{
     display: flex;
     flex-direction: column;
+    width: 100%;
     flex:3;
     justify-content: center;
+    background-color: black;
 }
 .footerlogo{
     display: flex;
     flex:7;
     justify-content: center;
-    border:3px solid black;
+    border:1px solid black;
 }
 .footerlogocon{
     height: 100%;
@@ -406,6 +408,8 @@ html, body {
     display: flex;
     text-align: center;
     color:white;
+    background-color: black;
+    margin:0px;
 }
 .footertext{
     justify-content: center;
@@ -420,6 +424,7 @@ html, body {
     align-items: center;
     flex-direction: column;
     background-color: black;
+    width: 102%;
 }
 .footerlinkstitle{
     flex:2;
@@ -451,6 +456,7 @@ html, body {
     flex-direction: column;
     flex:2;
     background-color: black;
+    width: 102%;
 }
 .connectustitle{
     display: flex;
@@ -534,6 +540,7 @@ html, body {
     display: flex;
     padding-left: 5%;
     gap:10%;
+    justify-content: center;
 }
 .map{
     flex:3;
@@ -544,6 +551,7 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width:102%;
 }
 .maptitle{
     color: #1f7a9a;
