@@ -452,7 +452,8 @@ html, body {
 }
 .connectustitle{
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    padding-left: 17%;
 }
 .connectustitlecon{
     color:#1f7a9a;
