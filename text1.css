@@ -9,6 +9,36 @@ html, body {
     display:flex;
     flex-direction: column;
 }
+.chatbot{
+    height: 100%;
+    width: 100%;
+}
+.containertwo{
+    border:3px solid black;
+    display: flex;
+    align-items: center;
+}
+.containertwobutton:focus{
+    transform:translateX(130px);
+}
+.chatbotcontainer{
+    left:89.5%;
+    width:10%;
+    height: 10%;
+    display: flex;
+    border: 5px solid black;
+    position: relative;
+}
+.containerone{
+    flex:2;
+    display: flex;
+    border: 0px solid black;
+}
+.containertwobutton{
+    flex: 100%;
+    height: 100%;
+    width: 100%;
+}
 .firstbar{
     width: 100%;
     height: 10%;
