@@ -22,9 +22,8 @@ html, body {
     transform:translateX(130px);
 }
 .chatbotcontainer{
-    left:89.5%;
-    width:10%;
-    height: 10%;
+    width:100%;
+    height: 100%;
     display: flex;
     border: 5px solid black;
     position: relative;
